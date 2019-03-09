@@ -29,7 +29,7 @@ void pretrazi(vector<double>::const_iterator pocetak, vector<double>::const_iter
         // cout<<trenutni<<endl;
         if(trenutni<0)
         {
-            trenutni*=neg; //mnozim s (-1) negativa broj da dobijem pozitivan->abs
+            trenutni*=neg; //mnozim s (-1) negativan broj da dobijem pozitivan->abs
 
             
         }
@@ -37,7 +37,7 @@ void pretrazi(vector<double>::const_iterator pocetak, vector<double>::const_iter
         {
 
 
-            trenutni*=poz; //pozitivan ostaje pozitivan
+            trenutni*=poz; //pozitivan ostaje pozitivan, ni ne mora else
             
 
         }
