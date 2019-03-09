@@ -64,5 +64,5 @@ void testirajIzracunaj() {
 int main() {
     testirajPretrazi();
     // Otkomentarisati kada implementirate funkciju "izracunaj":
-    //testirajIzracunaj();
+    testirajIzracunaj();
 }
